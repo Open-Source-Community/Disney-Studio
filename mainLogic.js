@@ -6,14 +6,14 @@
   let sector = 45;
 
   const characters = {
-    1: "./pngegg (2).png",
-    2: "./pngegg (4).png",
-    3: "./pngegg (10).png",
-    4: "./merida.png",
-    5: "./merida.png",
-    6: "./merida.png",
-    7: "./merida.png",
-    8: "./merida.png",
+    1: "./images/pngegg (2).png",
+    2: "./images/pngegg (4).png",
+    3: "./images/pngegg (10).png",
+    4: "./images/merida.png",
+    5: "./images/merida.png",
+    6: "./images/merida.png",
+    7: "./images/merida.png",
+    8: "./images/merida.png",
   }
 
   const winner = (actual) => {

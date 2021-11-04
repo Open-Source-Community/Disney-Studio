@@ -45,7 +45,7 @@
 }
 
 body{
-  background: url('background.png') no-repeat center scroll;     
+  background: url('./images/background.png') no-repeat center scroll;     
   background-size: cover;
 }
 
@@ -72,7 +72,7 @@ body{
   display: none;
   position: absolute;
   top: -27px;
-  left: 242px;
+  left: 157px;
   z-index: 2;
 
 }
@@ -81,7 +81,7 @@ body{
   display: none;
   position: absolute;
   top: -21px;
-  left: 545px;
+  left: 461px;
   z-index: 2;
 
 }
@@ -89,7 +89,7 @@ body{
   display: none;
   position: absolute;
   top: -44px;
-  left: 849px;
+  left: 764px;
   z-index: 2;
 
 }
@@ -97,7 +97,7 @@ body{
   display: none;
   position: absolute;
   top: -16px;
-  left: 1153px;
+  left: 1068px;
   z-index: 2;
 
 }
@@ -115,19 +115,3 @@ body{
   display: inline;
 }
 
-/* 
-.blur {
-    animation: blur 10s;
-  }
-  
-  @keyframes blur {
-    0% {
-      filter: blur(1.5px);
-    }
-    80% {
-      filter: blur(1.5px);
-    }
-    100% {
-      filter: blur(0px);
-    }
-  } */
