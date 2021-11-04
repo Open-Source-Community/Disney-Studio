@@ -1,0 +1,133 @@
+.container .spin {
+  display: flex;
+  background-color: rgba(243, 243, 245, 0.6);
+  margin: 10px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container .films{ 
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(243, 243, 245, 0.6);
+  margin: 10px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header{
+  display: flex;
+  background-color: rgba(243, 243, 245, 0.6);
+  border-radius: 20px;
+  margin: 10px;
+} 
+
+
+.wheel{
+  max-width:20%;
+  height:auto;
+  right: 6px;
+  bottom: -140px;
+}
+.arrow{
+  max-width:10%;
+  height:20%;
+}
+
+#result{
+  max-width:10%;
+  height:20%;
+  transition-delay: 10s;
+}
+
+body{
+  background: url('background.png') no-repeat center scroll;     
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  padding: 25px;
+
+}
+.column {
+  flex: 25%;
+  padding: 5px;
+  left: 0;
+
+}
+.poster1 {
+  width:294px; 
+  height:430px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.column .poster2 {
+  display: none;
+  position: absolute;
+  top: -27px;
+  left: 242px;
+  z-index: 2;
+
+}
+
+.column .poster3 {
+  display: none;
+  position: absolute;
+  top: -21px;
+  left: 545px;
+  z-index: 2;
+
+}
+.column .poster4 {
+  display: none;
+  position: absolute;
+  top: -44px;
+  left: 849px;
+  z-index: 2;
+
+}
+.column .poster5 {
+  display: none;
+  position: absolute;
+  top: -16px;
+  left: 1153px;
+  z-index: 2;
+
+}
+.column:hover .poster2 {
+  display: inline;
+}
+
+.column:hover .poster3 {
+  display: inline;
+}
+.column:hover .poster4 {
+  display: inline;
+}
+.column:hover .poster5 {
+  display: inline;
+}
+
+/* 
+.blur {
+    animation: blur 10s;
+  }
+  
+  @keyframes blur {
+    0% {
+      filter: blur(1.5px);
+    }
+    80% {
+      filter: blur(1.5px);
+    }
+    100% {
+      filter: blur(0px);
+    }
+  } */
