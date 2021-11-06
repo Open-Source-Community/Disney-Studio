@@ -10,7 +10,12 @@
 
 <body>
     <nav>
-        <a href="./mainPage.html">Home</a>
+        <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="Type to search...">
+            <img src="./images/search icon.png">
+        </div>
+        <a href="mainPage.html">Home</a>
+        <a href="#">About Us</a>
     </nav>
 
     <div class="slideshow-container">
@@ -31,13 +36,13 @@
         <span class="dot"></span>
     </div>
 
-    <div class="quiz-container">
-        <div id="quiz"></div>
+    <div class="container">
+        <div id="quiz" class="quiz"></div>
+        <button id="previous">Previous Question</button>
+        <button id="next">Next Question</button>
+        <button id="submit">Submit Quiz</button>
+        <div id="results"></div>
     </div>
-    <button id="previous">Previous Question</button>
-    <button id="next">Next Question</button>
-    <button id="submit">Submit Quiz</button>
-    <div id="results"></div>
 
 
     <script src="./slider.js"></script>

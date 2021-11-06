@@ -1,3 +1,12 @@
+.container.header{
+  display: flex;
+  background-color: rgba(243, 243, 245, 0.6);
+  margin: 10px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
 .container .spin {
   display: flex;
   background-color: rgba(243, 243, 245, 0.6);
@@ -38,6 +47,25 @@
   height:20%;
 }
 
+.castle{
+  position: relative;
+  max-width:34%;
+  height:auto;
+  left: 266px;
+  bottom: 2px;
+}
+
+.txt{
+
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-size:50px;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+
 #result{
   max-width:10%;
   height:20%;
@@ -52,13 +80,12 @@ body{
 .row {
   display: flex;
   padding: 25px;
-
 }
 .column {
   flex: 25%;
-  padding: 5px;
+  padding: 40px;
   left: 0;
-
+  height: 500px;
 }
 .poster1 {
   width:294px; 
@@ -70,41 +97,39 @@ body{
 
 .column .poster2 {
   display: none;
-  position: absolute;
-  top: -27px;
-  left: 157px;
+  position: relative;
+  top: -627px;
+  left: 0px;
   z-index: 2;
-
 }
 
 .column .poster3 {
   display: none;
-  position: absolute;
-  top: -21px;
-  left: 461px;
+  position: relative;
+  top: -622px;
+  left: 0px;
   z-index: 2;
 
 }
 .column .poster4 {
   display: none;
-  position: absolute;
-  top: -44px;
-  left: 764px;
+  position: relative;
+  top: -645px;
+  left: 0px;
   z-index: 2;
 
 }
 .column .poster5 {
   display: none;
-  position: absolute;
-  top: -16px;
-  left: 1068px;
+  position: relative;
+  top: -618px;
+  left: 0px;
   z-index: 2;
 
 }
 .column:hover .poster2 {
   display: inline;
 }
-
 .column:hover .poster3 {
   display: inline;
 }
@@ -113,5 +138,62 @@ body{
 }
 .column:hover .poster5 {
   display: inline;
+}
+
+.search-box{
+  position: absolute;
+  top: 5%;
+  left: 13%;
+  transform: translate(-10%,-40%);
+  background: white;
+  height: 20px;
+  border-radius: 50px;
+  padding: 9px;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.24;
+  line-height: 20px;
+  width: 600px;
+}
+
+nav
+{
+    overflow: hidden;
+    background-color: transparent;
+    top: 0;
+}
+nav a
+{
+  position: sticky;
+    cursor: pointer;
+    float: right;
+    color: rgb(10, 137, 221);
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+   
+}
+nav a:hover
+{
+    background-color: #ddd;
+    color: rgb(10, 10, 10);
+}
+nav a:active
+{
+    background-color: #fa7d17;
 }
 

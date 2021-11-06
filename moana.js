@@ -158,7 +158,7 @@
         numCorrect++;
 
         // color the answers green
-        answerContainers[questionNumber].style.color = 'lightgreen';
+        answerContainers[questionNumber].style.color = 'green';
       }
       // if answer is wrong or blank
       else {
@@ -200,8 +200,3 @@
   }
 
 })();
-
-
-
-
-
