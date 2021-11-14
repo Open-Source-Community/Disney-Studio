@@ -77,7 +77,7 @@
         c: "Fish",
       },
       correctAnswer: "b"
-    }    
+    }
   ];
 
   // Kick things off
